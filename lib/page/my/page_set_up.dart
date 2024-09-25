@@ -58,7 +58,7 @@ class _PageSetUpState extends State<PageSetUp> {
     return DecoratedBox(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/login_back.webp'),
+          image: AssetImage('assets/assets_six/images/login_back.webp'),
           fit: BoxFit.fill,
         ),
       ),
@@ -112,7 +112,7 @@ class _PageSetUpState extends State<PageSetUp> {
                             title: '获取门票',
                             leftIcon: Padding(
                               padding: const EdgeInsets.only(right: 10.0),
-                              child: Image.asset('assets/images/piao.png', width: 30, height: 30),
+                              child: Image.asset('assets/assets_six/images/piao.png', width: 30, height: 30),
                             ),
                             onTap: () async {
                               // PageDeposit().push(context);
@@ -126,7 +126,7 @@ class _PageSetUpState extends State<PageSetUp> {
                       title: '清除缓存',
                       leftIcon: Padding(
                         padding: const EdgeInsets.only(right: 10.0),
-                        child: Image.asset('assets/images/clean.png', width: 30, height: 30),
+                        child: Image.asset('assets/assets_six/images/clean.png', width: 30, height: 30),
                       ),
                       onTap: () => _onClearCache(context),
                       rightIcon: Row(
@@ -161,7 +161,7 @@ class _PageSetUpState extends State<PageSetUp> {
                       title: '关于我们',
                       leftIcon: Padding(
                         padding: const EdgeInsets.only(right: 10.0),
-                        child: Image.asset('assets/images/aboutus.png', width: 30, height: 30),
+                        child: Image.asset('assets/assets_six/images/aboutus.png', width: 30, height: 30),
                       ),
                       onTap: () async {
                         await PageUserAboutUs().push(context);
@@ -173,7 +173,7 @@ class _PageSetUpState extends State<PageSetUp> {
                       title: '版本更新',
                       leftIcon: Padding(
                         padding: const EdgeInsets.only(right: 10.0),
-                        child: Image.asset('assets/images/update.png', width: 30, height: 30),
+                        child: Image.asset('assets/assets_six/images/update.png', width: 30, height: 30),
                       ),
                       onTap: () async {
                         // showAlertDialogUpdate(context, enterType: 1);
@@ -208,7 +208,7 @@ class _PageSetUpState extends State<PageSetUp> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(30)),
                       image: DecorationImage(
-                        image: AssetImage('assets/images/tuichu.png'),
+                        image: AssetImage('assets/assets_six/images/tuichu.png'),
                         fit: BoxFit.cover,
                       ),
                       boxShadow: [BoxShadow(color: Color(0xff000000), blurRadius: 33, offset: Offset(0, 0))],

@@ -172,7 +172,7 @@ class _LoginBuildState extends State<LoginBuild> with SingleTickerProviderStateM
             return DecoratedBox(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/images/login_back2.webp'),
+                  image: AssetImage('assets/assets_six/images/login_back2.webp'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -402,7 +402,7 @@ class _LoginBuildState extends State<LoginBuild> with SingleTickerProviderStateM
                                     children: [
                                       DecoratedBox(
                                         decoration: BoxDecoration(
-                                          image: DecorationImage(image: AssetImage("assets/images/ok.png"), fit: BoxFit.fill),
+                                          image: DecorationImage(image: AssetImage("assets/assets_six/images/ok.png"), fit: BoxFit.fill),
                                           borderRadius: BorderRadius.all(Radius.circular(20))
                                         ),
                                         child: SizedBox(
@@ -445,7 +445,7 @@ class _LoginBuildState extends State<LoginBuild> with SingleTickerProviderStateM
                                   height: 100.0,
                                   decoration: BoxDecoration(
                                     image: DecorationImage(
-                                      image: AssetImage('assets/images/new_logo.webp'),
+                                      image: AssetImage('assets/assets_six/images/new_logo.webp'),
                                       fit: BoxFit.fill,
                                     ),
                                     boxShadow: [

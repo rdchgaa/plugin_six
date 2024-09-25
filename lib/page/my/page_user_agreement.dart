@@ -25,7 +25,7 @@ class _PageUserAgreementState extends State<PageUserAgreement> {
     return DecoratedBox(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/login_back.webp'),
+          image: AssetImage('assets/assets_six/images/login_back.webp'),
           fit: BoxFit.fill,
         ),
       ),
@@ -78,7 +78,7 @@ class _PageUserAgreementState extends State<PageUserAgreement> {
   }
 
   Future<bool> _onInitLoading(BuildContext context) async {
-    _html = await DefaultAssetBundle.of(context).loadString("assets/html/zh/userAgreement.html");
+    _html = await DefaultAssetBundle.of(context).loadString("assets/assets_six/html/zh/userAgreement.html");
     return true;
   }
 }

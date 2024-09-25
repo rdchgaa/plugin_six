@@ -104,7 +104,7 @@ class _HeadImageState extends State<HeadImage> with WidgetsBindingObserver {
         alignment: widget.alignment!,
         errorBuilder: (context, error, stackTrace) {
           return Image.asset(
-            'assets/images/default_head.png',
+            'assets/assets_six/images/default_head.png',
             width: widget.width,
             height: widget.height,
           );
@@ -114,7 +114,7 @@ class _HeadImageState extends State<HeadImage> with WidgetsBindingObserver {
       //     url: url,
       //     // errorWidget: (Image.asset('assets/images2/icon-touxiang.webp',width: widget.width,height: widget.height,)));
       //     errorWidget: (Image.asset(
-      //       'assets/images/default_head.png',
+      //       'assets/assets_six/images/default_head.png',
       //       width: widget.width,
       //       height: widget.height,
       //     )));
@@ -208,7 +208,7 @@ Widget getNiuTypeIcon(var pokerResult, {double width = 25}) {
     return SizedBox();
   }
   if (type == 7) {
-    child = Image.asset('assets/images/zhadan.png');
+    child = Image.asset('assets/assets_six/images/zhadan.png');
   }
   if (type == 6) {
     child = DecoratedBox(
@@ -226,13 +226,13 @@ Widget getNiuTypeIcon(var pokerResult, {double width = 25}) {
     );
   }
   if (type == 5) {
-    child = Image.asset('assets/images/jinniu.png');
+    child = Image.asset('assets/assets_six/images/jinniu.png');
   }
   if (type == 4) {
-    child = Image.asset('assets/images/yinniu.png');
+    child = Image.asset('assets/assets_six/images/yinniu.png');
   }
   if (type == 3) {
-    child = Image.asset('assets/images/niuniu.png', color: Color(0xff00a2ff));
+    child = Image.asset('assets/assets_six/images/niuniu.png', color: Color(0xff00a2ff));
   }
   if (type == 2) {
     //有牛
@@ -242,7 +242,7 @@ Widget getNiuTypeIcon(var pokerResult, {double width = 25}) {
     }
     child = Row(
       children: [
-        Center(child: Image.asset('assets/images/youniu.png', width: 20, height: 20,)),
+        Center(child: Image.asset('assets/assets_six/images/youniu.png', width: 20, height: 20,)),
         Padding(
           padding: EdgeInsets.only(left: 2),
           child: Text(pokerResult['niu_num'].toString(), style: TextStyle(fontSize: 18, color: textColor, fontWeight: FontWeight.bold)),

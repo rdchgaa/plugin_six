@@ -141,7 +141,7 @@ class _PageXdEditInfoState extends State<PageXdEditInfo> {
     return DecoratedBox(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/login_back.webp'),
+          image: AssetImage('assets/assets_six/images/login_back.webp'),
           fit: BoxFit.fill,
         ),
       ),
@@ -341,7 +341,7 @@ class _PageXdEditInfoState extends State<PageXdEditInfo> {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
-                              Image.asset('assets/images/male.png',width: 18,height: 18,),
+                              Image.asset('assets/assets_six/images/male.png',width: 18,height: 18,),
                               SizedBox(width: 4,),
                               Text(
                                 '男',
@@ -379,7 +379,7 @@ class _PageXdEditInfoState extends State<PageXdEditInfo> {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: <Widget>[
-                                Image.asset('assets/images/female.png',width: 18,height: 18,),
+                                Image.asset('assets/assets_six/images/female.png',width: 18,height: 18,),
                                 SizedBox(width: 4,),
                                 Text(
                                   '女',

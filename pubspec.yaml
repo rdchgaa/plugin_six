@@ -80,11 +80,11 @@ flutter:
 
 #  assets:
 #    - assets/
-#    - assets/languages/
-#    - assets/emojis/
-#    - assets/images/
-#    - assets/html/zh/
-#    - assets/html/en/
+#    - assets/assets_six/languages/
+#    - assets/assets_six/emojis/
+#    - assets/assets_six/images/
+#    - assets/assets_six/html/zh/
+#    - assets/assets_six/html/en/
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

@@ -223,7 +223,7 @@ UiLayoutTitleAndIconItemStyle get layoutItemStyle => UiLayoutTitleAndIconItemSty
   itemPadding: const EdgeInsets.only(left: 16, right: 16),
   titleStyle: textStyleH3White,
   rightIcon: Image.asset(
-    'assets/images/right.png',
+    'assets/assets_six/images/right.png',
     width: 12,
     height: 12,
   ),
@@ -233,7 +233,7 @@ UiLayoutTitleAndIconItemStyle get layoutItemStyle2 => UiLayoutTitleAndIconItemSt
   itemPadding: const EdgeInsets.only(left: 24, right: 24),
   titleStyle: textStyleBody4,
   rightIcon: Image.asset(
-    'assets/images/right.png',
+    'assets/assets_six/images/right.png',
     width: 15,
     height: 15,
   ),

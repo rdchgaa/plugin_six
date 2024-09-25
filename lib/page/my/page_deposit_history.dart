@@ -45,7 +45,7 @@ class _PageDepositHistoryState extends State<PageDepositHistory> {
     return DecoratedBox(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/login_back.webp'),
+          image: AssetImage('assets/assets_six/images/login_back.webp'),
           fit: BoxFit.fill,
         ),
       ),
@@ -144,7 +144,7 @@ class _PageDepositHistoryState extends State<PageDepositHistory> {
                           width: 4,
                         ),
                         Image.asset(
-                          'assets/images/piao.png',
+                          'assets/assets_six/images/piao.png',
                           width: 18,
                           height: 18,
                         ),
@@ -222,7 +222,7 @@ class _PageDepositHistoryState extends State<PageDepositHistory> {
                           width: 4,
                         ),
                         Image.asset(
-                          'assets/images/piao.png',
+                          'assets/assets_six/images/piao.png',
                           width: 18,
                           height: 18,
                         ),
@@ -300,7 +300,7 @@ class _PageDepositHistoryState extends State<PageDepositHistory> {
                           width: 4,
                         ),
                         Image.asset(
-                          'assets/images/piao.png',
+                          'assets/assets_six/images/piao.png',
                           width: 18,
                           height: 18,
                         ),

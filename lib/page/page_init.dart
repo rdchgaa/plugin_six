@@ -162,7 +162,7 @@ class _PageInitState extends State<PageInit> {
             // color: Colors.white,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/images/home.png'),
+                image: AssetImage('assets/assets_six/images/home.png'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -171,7 +171,7 @@ class _PageInitState extends State<PageInit> {
               height: 100.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/images/app_icon.png'),
+                  image: AssetImage('assets/assets_six/images/app_icon.png'),
                   fit: BoxFit.fill,
                 ),
                 boxShadow: [

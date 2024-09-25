@@ -182,7 +182,7 @@
 //   @override
 //   Widget build(BuildContext context) {
 //     return Image.asset(
-//       "assets/emojis/emoji_${index.toString().padLeft(3, '0')}.webp",
+//       "assets/assets_six/emojis/emoji_${index.toString().padLeft(3, '0')}.webp",
 //       width: width,
 //       height: height,
 //     );

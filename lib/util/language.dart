@@ -2592,12 +2592,12 @@
 //
 //   @override
 //   Future<Languages> load(Locale locale) {
-//     return DefaultAssetBundle.of(context).loadString("assets/languages/${locale.languageCode}.json").then((value) {
+//     return DefaultAssetBundle.of(context).loadString("assets/assets_six/languages/${locale.languageCode}.json").then((value) {
 //       return Languages.fromMap(json.decode(value)["data"]);
 //     }, onError: (e) {
 //       return Languages();
 //     });
-//     // return rootBundle.loadString("assets/languages/${locale.languageCode}.json").then((value) {
+//     // return rootBundle.loadString("assets/assets_six/languages/${locale.languageCode}.json").then((value) {
 //     //   return Languages.fromMap(json.decode(value)["data"]);
 //     // }, onError: (e) {
 //     //   return Languages();

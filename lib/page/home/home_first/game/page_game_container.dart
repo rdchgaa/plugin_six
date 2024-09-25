@@ -177,7 +177,7 @@ class _QiangzhuangButtonBuildState extends State<QiangzhuangButtonBuild> with Ti
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(_size / 2)),
                         image: DecorationImage(
-                          image: AssetImage('assets/images/xingqiu3.png'),
+                          image: AssetImage('assets/assets_six/images/xingqiu3.png'),
                           fit: BoxFit.fill,
                         ),
                       ),
@@ -273,7 +273,7 @@ class _ZhuangIconBuildState extends State<ZhuangIconBuild> with TickerProviderSt
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(_size / 2)),
                 image: DecorationImage(
-                  image: AssetImage('assets/images/xingqiu3.png'),
+                  image: AssetImage('assets/assets_six/images/xingqiu3.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -551,7 +551,7 @@ class _FinalResultBuildState extends State<FinalResultBuild> with TickerProvider
                           // ),
                           // color: Color(0xcc555555),
                           image: DecorationImage(
-                            image: AssetImage('assets/images/xingkong2.png'),
+                            image: AssetImage('assets/assets_six/images/xingkong2.png'),
                             fit: BoxFit.cover,
                           ),
                           boxShadow: [BoxShadow(color: Color(0xffffffff), blurRadius: 33, offset: Offset(0, 0))],
@@ -793,7 +793,7 @@ class _ResultSingleItemContainerState extends State<ResultSingleItemContainer> w
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.all(Radius.circular(16 / 2)),
                                     image: DecorationImage(
-                                      image: AssetImage('assets/images/xingqiu3.png'),
+                                      image: AssetImage('assets/assets_six/images/xingqiu3.png'),
                                       fit: BoxFit.fill,
                                     ),
                                   ),
@@ -1064,7 +1064,7 @@ class _ResultSingleItemContainerState extends State<ResultSingleItemContainer> w
           Row(
             children: [
               Image.asset(
-                "assets/images/jinbi.png",
+                "assets/assets_six/images/jinbi.png",
                 width: 14,
                 height: 14,
               ),
@@ -1205,7 +1205,7 @@ class _ResultAllInfoItemContainerState extends State<ResultAllInfoItemContainer>
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.all(Radius.circular(16 / 2)),
                                     image: DecorationImage(
-                                      image: AssetImage('assets/images/xingqiu3.png'),
+                                      image: AssetImage('assets/assets_six/images/xingqiu3.png'),
                                       fit: BoxFit.fill,
                                     ),
                                   ),
@@ -1354,7 +1354,7 @@ class _ResultAllInfoItemContainerState extends State<ResultAllInfoItemContainer>
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(16 / 2)),
                           image: DecorationImage(
-                            image: AssetImage('assets/images/xingqiu3.png'),
+                            image: AssetImage('assets/assets_six/images/xingqiu3.png'),
                             fit: BoxFit.fill,
                           ),
                         ),
@@ -1386,7 +1386,7 @@ class _ResultAllInfoItemContainerState extends State<ResultAllInfoItemContainer>
           Row(
             children: [
               Image.asset(
-                "assets/images/jinbi.png",
+                "assets/assets_six/images/jinbi.png",
                 width: 20,
                 height: 20,
               ),
@@ -1404,7 +1404,7 @@ class _ResultAllInfoItemContainerState extends State<ResultAllInfoItemContainer>
             Padding(
               padding: EdgeInsets.only(top: 0),
               child: Image.asset(
-                "assets/images/win.png",
+                "assets/assets_six/images/win.png",
                 width: 50,
                 height: 50,
                 fit: BoxFit.contain,

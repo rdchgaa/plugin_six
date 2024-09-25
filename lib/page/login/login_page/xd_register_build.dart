@@ -208,7 +208,7 @@ class _XdRegisterBuildState extends State<XdRegisterBuild> with SingleTickerProv
             return DecoratedBox(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/images/login_back3.webp'),
+                  image: AssetImage('assets/assets_six/images/login_back3.webp'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -517,7 +517,7 @@ class _XdRegisterBuildState extends State<XdRegisterBuild> with SingleTickerProv
                                     children: [
                                       DecoratedBox(
                                         decoration: BoxDecoration(
-                                          image: DecorationImage(image: AssetImage("assets/images/ok.png"), fit: BoxFit.fill),
+                                          image: DecorationImage(image: AssetImage("assets/assets_six/images/ok.png"), fit: BoxFit.fill),
                                         ),
                                         child: SizedBox(
                                           width: 150,

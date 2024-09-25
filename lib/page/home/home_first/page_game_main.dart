@@ -660,7 +660,7 @@ class _PageGameMainState extends State<PageGameMain> {
                 body: Stack(
                   children: [
                     Image.asset(
-                      'assets/images/desk.png',
+                      'assets/assets_six/images/desk.png',
                       width: width,
                       height: height,
                       fit: BoxFit.cover,
@@ -913,7 +913,7 @@ class _PageGameMainState extends State<PageGameMain> {
                     children: [
                       Center(
                           child: Image.asset(
-                        'assets/images/shoubin.png',
+                        'assets/assets_six/images/shoubin.png',
                         width: 30,
                         height: 30,
                       )),
@@ -1072,7 +1072,7 @@ class _PageGameMainState extends State<PageGameMain> {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.all(Radius.circular(35)),
             image: DecorationImage(
-              image: AssetImage('assets/images/xingqiu2.png'),
+              image: AssetImage('assets/assets_six/images/xingqiu2.png'),
               fit: BoxFit.contain,
             ),
           ),
@@ -1092,7 +1092,7 @@ class _PageGameMainState extends State<PageGameMain> {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(35)),
           image: DecorationImage(
-            image: AssetImage('assets/images/xingqiu2.png'),
+            image: AssetImage('assets/assets_six/images/xingqiu2.png'),
             fit: BoxFit.contain,
           ),
         ),
@@ -1116,7 +1116,7 @@ class _PageGameMainState extends State<PageGameMain> {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.all(Radius.circular(35)),
             image: DecorationImage(
-              image: AssetImage('assets/images/xingqiu2.png'),
+              image: AssetImage('assets/assets_six/images/xingqiu2.png'),
               fit: BoxFit.contain,
             ),
           ),
@@ -1129,7 +1129,7 @@ class _PageGameMainState extends State<PageGameMain> {
                 children: [
                   Text('准备', textAlign: TextAlign.center, style: TextStyle(fontSize: 15, color: Color(0xffffffff))),
                   Image.asset(
-                    'assets/images/dengdai.png',
+                    'assets/assets_six/images/dengdai.png',
                     width: 15,
                     height: 15,
                     fit: BoxFit.contain,
@@ -1157,25 +1157,25 @@ class _PageGameMainState extends State<PageGameMain> {
   }
 
   getChoumaItemBuild(int num, {double imageWidth = 35.0, EdgeInsetsGeometry? padding}) {
-    var image = 'assets/images/money1.png';
+    var image = 'assets/assets_six/images/money1.png';
     Color color = Color(0xffbab321);
     if (num == 1) {
-      image = 'assets/images/money1.png';
+      image = 'assets/assets_six/images/money1.png';
       color = Color(0xffbab321);
     } else if (num == 10) {
-      image = 'assets/images/money10.png';
+      image = 'assets/assets_six/images/money10.png';
       color = Color(0xff37ab18);
     } else if (num == 100) {
-      image = 'assets/images/money100.png';
+      image = 'assets/assets_six/images/money100.png';
       color = Color(0xff1296db);
     } else if (num == 500) {
-      image = 'assets/images/money500.png';
+      image = 'assets/assets_six/images/money500.png';
       color = Color(0xff081459);
     } else if (num == 1000) {
-      image = 'assets/images/money1000.png';
+      image = 'assets/assets_six/images/money1000.png';
       color = Color(0xffca14d4);
     } else if (num == 5000) {
-      image = 'assets/images/money5000.png';
+      image = 'assets/assets_six/images/money5000.png';
       color = Color(0xffd81e06);
     }
     double fontSize = 10.0;
@@ -1428,7 +1428,7 @@ class _PageGameMainState extends State<PageGameMain> {
           width: 15,
           height: 15,
           child: Image.asset(
-            'assets/images/dengdai.png',
+            'assets/assets_six/images/dengdai.png',
             width: 15,
             height: 15,
             fit: BoxFit.contain,
@@ -1540,7 +1540,7 @@ class _PageGameMainState extends State<PageGameMain> {
                   width: 30,
                   height: 30,
                   child: Image.asset(
-                    'assets/images/set.png',
+                    'assets/assets_six/images/set.png',
                     width: 30,
                     height: 30,
                   ),
@@ -1620,7 +1620,7 @@ class _PageGameMainState extends State<PageGameMain> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(
-            "assets/images/jinbi.png",
+            "assets/assets_six/images/jinbi.png",
             width: 14,
             height: 14,
           ),
@@ -1698,7 +1698,7 @@ class _PageGameMainState extends State<PageGameMain> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(isZhuang ? 60 : 60)),
                       image: DecorationImage(
-                        image: AssetImage(isZhuang ? 'assets/images/xingqiu5.png' : 'assets/images/xingqiu5.png'),
+                        image: AssetImage(isZhuang ? 'assets/assets_six/images/xingqiu5.png' : 'assets/assets_six/images/xingqiu5.png'),
                         fit: BoxFit.fill,
                       ),
                     ),

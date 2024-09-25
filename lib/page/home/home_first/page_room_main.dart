@@ -209,7 +209,7 @@ class _PageRoomMainState extends State<PageRoomMain> {
                 return Stack(
                   children: [
                     Image.asset(
-                      'assets/images/rome_back.png',
+                      'assets/assets_six/images/rome_back.png',
                       width: width,
                       height: height,
                       fit: BoxFit.cover,
@@ -299,7 +299,7 @@ class _PageRoomMainState extends State<PageRoomMain> {
                                               EnterButtonBuild(width: 120, onTap: (){},),
                                               DecoratedBox(
                                                 decoration: BoxDecoration(
-                                                  image: DecorationImage(image: AssetImage("assets/images/button3.png"), fit: BoxFit.cover),
+                                                  image: DecorationImage(image: AssetImage("assets/assets_six/images/button3.png"), fit: BoxFit.cover),
                                                   borderRadius: BorderRadius.all(Radius.circular(60)),
                                                   // boxShadow: [BoxShadow(color: Color(0xffcccccc), blurRadius: 33, offset: Offset(0, 0))],
                                                 ),
@@ -334,7 +334,7 @@ class _PageRoomMainState extends State<PageRoomMain> {
                                           children: [
                                             DecoratedBox(
                                               decoration: BoxDecoration(
-                                                image: DecorationImage(image: AssetImage("assets/images/yuanyuan.png"), fit: BoxFit.cover),
+                                                image: DecorationImage(image: AssetImage("assets/assets_six/images/yuanyuan.png"), fit: BoxFit.cover),
                                                 borderRadius: BorderRadius.all(Radius.circular(60)),
                                                 boxShadow: [BoxShadow(color: Color(0xff000000), blurRadius: 33, offset: Offset(0, 0))],
                                               ),
@@ -416,7 +416,7 @@ class _PageRoomMainState extends State<PageRoomMain> {
                                                   if (user.isRoomMaster)
                                                       Column(
                                                         children: [
-                                                          Image.asset('assets/images/fangzhu.png',width: 30,height: 30,),
+                                                          Image.asset('assets/assets_six/images/fangzhu.png',width: 30,height: 30,),
                                                           Text(
                                                             '房主',
                                                             style: TextStyle(fontSize: 12, color: Color(0xff34ac38)),
@@ -535,7 +535,7 @@ class _PageRoomMainState extends State<PageRoomMain> {
           if (item['is_master'] == 1)
             Column(
             children: [
-              Image.asset('assets/images/fangzhu.png',width: 30,height: 30,),
+              Image.asset('assets/assets_six/images/fangzhu.png',width: 30,height: 30,),
               Text(
                 '房主',
                 style: TextStyle(fontSize: 12, color: Color(0xff34ac38)),

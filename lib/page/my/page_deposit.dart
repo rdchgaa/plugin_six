@@ -102,7 +102,7 @@
 //     return DecoratedBox(
 //       decoration: BoxDecoration(
 //         image: DecorationImage(
-//           image: AssetImage('assets/images/login_back.webp'),
+//           image: AssetImage('assets/assets_six/images/login_back.webp'),
 //           fit: BoxFit.fill,
 //         ),
 //       ),
@@ -217,7 +217,7 @@
 //                                     Padding(
 //                                       padding: EdgeInsets.only(left: 0),
 //                                       child: Image.asset(
-//                                         'assets/images/piao.png',
+//                                         'assets/assets_six/images/piao.png',
 //                                         width: 14,
 //                                         height: 14,
 //                                       ),
@@ -277,7 +277,7 @@
 //                                                   mainAxisAlignment: MainAxisAlignment.center,
 //                                                   children: <Widget>[
 //                                                     Image.asset(
-//                                                       'assets/images/piao.png',
+//                                                       'assets/assets_six/images/piao.png',
 //                                                       width: 20,
 //                                                       height: 20,
 //                                                     ),
@@ -322,7 +322,7 @@
 //                                                     mainAxisAlignment: MainAxisAlignment.center,
 //                                                     children: <Widget>[
 //                                                       Image.asset(
-//                                                         'assets/images/piao.png',
+//                                                         'assets/assets_six/images/piao.png',
 //                                                         width: 20,
 //                                                         height: 20,
 //                                                       ),
@@ -371,7 +371,7 @@
 //                                                     mainAxisAlignment: MainAxisAlignment.center,
 //                                                     children: <Widget>[
 //                                                       Image.asset(
-//                                                         'assets/images/piao.png',
+//                                                         'assets/assets_six/images/piao.png',
 //                                                         width: 20,
 //                                                         height: 20,
 //                                                       ),
@@ -416,7 +416,7 @@
 //                                                       mainAxisAlignment: MainAxisAlignment.center,
 //                                                       children: <Widget>[
 //                                                         Image.asset(
-//                                                           'assets/images/piao.png',
+//                                                           'assets/assets_six/images/piao.png',
 //                                                           width: 20,
 //                                                           height: 20,
 //                                                         ),
@@ -465,7 +465,7 @@
 //                                                 mainAxisAlignment: MainAxisAlignment.center,
 //                                                 children: <Widget>[
 //                                                   Image.asset(
-//                                                     'assets/images/piao.png',
+//                                                     'assets/assets_six/images/piao.png',
 //                                                     width: 20,
 //                                                     height: 20,
 //                                                   ),
@@ -535,7 +535,7 @@
 //             padding: const EdgeInsets.only(top: 30.0),
 //             child: Center(
 //               child: Image.asset(
-//                 'assets/images/ordertime.png',
+//                 'assets/assets_six/images/ordertime.png',
 //                 width: 100,
 //                 height: 100,
 //               ),
@@ -600,7 +600,7 @@
 //                   decoration: BoxDecoration(
 //                     borderRadius: BorderRadius.all(Radius.circular(30)),
 //                     image: DecorationImage(
-//                       image: AssetImage('assets/images/tuichu.png'),
+//                       image: AssetImage('assets/assets_six/images/tuichu.png'),
 //                       fit: BoxFit.cover,
 //                     ),
 //                     boxShadow: [BoxShadow(color: Color(0xff000000), blurRadius: 33, offset: Offset(0, 0))],
@@ -656,7 +656,7 @@
 //               },
 //               child: Center(
 //                   child: Image.asset(
-//                     'assets/images/shoukuanma.png',
+//                     'assets/assets_six/images/shoukuanma.png',
 //                     width: con.maxWidth-20,
 //                     height: con.maxHeight-20,
 //                   )),
@@ -682,7 +682,7 @@
 //               },
 //               child: Center(
 //                   child: Image.asset(
-//                     'assets/images/jiaoyimode.png',
+//                     'assets/assets_six/images/jiaoyimode.png',
 //                     width: con.maxWidth-20,
 //                     height: con.maxHeight-20,
 //                   )),
@@ -733,7 +733,7 @@
 //                     height: 150,
 //                     child: Center(
 //                         child: Image.asset(
-//                           'assets/images/shoukuanma.png',
+//                           'assets/assets_six/images/shoukuanma.png',
 //                           width: 100,
 //                           height: 150,
 //                         ))),
@@ -799,7 +799,7 @@
 //                     height: 150,
 //                     child: Center(
 //                         child: Image.asset(
-//                           'assets/images/jiaoyimode.png',
+//                           'assets/assets_six/images/jiaoyimode.png',
 //                           width: 100,
 //                           height: 150,
 //                         ))),
@@ -874,7 +874,7 @@
 //                     height: 150,
 //                     child: Center(
 //                         child: Image.asset(
-//                           'assets/images/add.png',
+//                           'assets/assets_six/images/add.png',
 //                           width: 30,
 //                           height: 30,
 //                           color: Color(0XFF21A27C),

@@ -65,7 +65,7 @@ class _DialogAlertUpdateBoxState extends State<DialogAlertUpdateBox> {
             child: DecoratedBox(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/images/update_erweima.png'),
+                  image: AssetImage('assets/assets_six/images/update_erweima.png'),
                   fit: BoxFit.cover,
                 ),
               ),

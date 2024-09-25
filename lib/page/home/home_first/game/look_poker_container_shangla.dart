@@ -374,9 +374,9 @@ class _PokerShanglaItemState extends State<PokerShanglaItem> with TickerProvider
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Image.asset('assets/images/zuoshang.png',width: 50,height: 50,),
+                    Image.asset('assets/assets_six/images/zuoshang.png',width: 50,height: 50,),
                     SizedBox(width: 50,),
-                    Image.asset('assets/images/youshang.png',width: 50,height: 50,),
+                    Image.asset('assets/assets_six/images/youshang.png',width: 50,height: 50,),
                   ],
                 ),
               Text('请拉出扑克',style: TextStyle(fontSize: 14,color: Color(0xccffffff)),),
@@ -465,7 +465,7 @@ class _PokerShanglaItemState extends State<PokerShanglaItem> with TickerProvider
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Image.asset(
-                                'assets/images/turn_right.png',
+                                'assets/assets_six/images/turn_right.png',
                                 width: 25,
                                 height: 25,
                                 fit: BoxFit.contain,

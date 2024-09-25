@@ -26,7 +26,7 @@ class _PageUserPrivacyPolicyState extends State<PageUserPrivacyPolicy> {
     return DecoratedBox(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/login_back.webp'),
+          image: AssetImage('assets/assets_six/images/login_back.webp'),
           fit: BoxFit.fill,
         ),
       ),
@@ -78,8 +78,8 @@ class _PageUserPrivacyPolicyState extends State<PageUserPrivacyPolicy> {
   }
 
   Future<bool> _onInitLoading(BuildContext context) async {
-    // _html = await DefaultAssetBundle.of(context).loadString("assets/html/en/privacyPolicy.html");
-    _html = await DefaultAssetBundle.of(context).loadString("assets/html/zh/privacyPolicy.html");
+    // _html = await DefaultAssetBundle.of(context).loadString("assets/assets_six/html/en/privacyPolicy.html");
+    _html = await DefaultAssetBundle.of(context).loadString("assets/assets_six/html/zh/privacyPolicy.html");
     // _html = await rootBundle.loadString("assets/html/${App.of(context).locale.languageCode}/privacyPolicy.html");
     return true;
   }

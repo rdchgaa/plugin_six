@@ -235,7 +235,7 @@ class _LookPokerBuildState extends State<LookPokerBuild> with TickerProviderStat
             // ),
             // color: Color(0xcc555555),
             image: DecorationImage(
-              image: AssetImage('assets/images/xingkong.png'),
+              image: AssetImage('assets/assets_six/images/xingkong.png'),
               fit: BoxFit.cover,
             ) ,
             boxShadow: [BoxShadow(color: Color(0xffeeb202), blurRadius: 33, offset: Offset(0, 0))],
@@ -402,7 +402,7 @@ class _LookPokerBuildState extends State<LookPokerBuild> with TickerProviderStat
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset('assets/images/turn_left.png',width: 25,height: 25,fit: BoxFit.contain,color: Color(0xff00c2c9),),
+              Image.asset('assets/assets_six/images/turn_left.png',width: 25,height: 25,fit: BoxFit.contain,color: Color(0xff00c2c9),),
               Text('滑动卡片',style: TextStyle(fontSize: 14,color: Color(0xff00c2c9)),),
             ],
           ),

@@ -229,7 +229,7 @@ class _LookPokerBuildGuakaiState extends State<LookPokerBuildGuakai> with Ticker
                   brushSize: 25,
                   threshold: 50,
                   image: Image.asset(
-                    'assets/images/cardback.png',
+                    'assets/assets_six/images/cardback.png',
                     fit: BoxFit.fill,
                   ),
                   onChange: (value) {
@@ -329,7 +329,7 @@ class _LookPokerBuildGuakaiState extends State<LookPokerBuildGuakai> with Ticker
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Image.asset(
-                                  'assets/images/turn_right.png',
+                                  'assets/assets_six/images/turn_right.png',
                                   width: 25,
                                   height: 25,
                                   fit: BoxFit.contain,
@@ -402,7 +402,7 @@ class _LookPokerBuildGuakaiState extends State<LookPokerBuildGuakai> with Ticker
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
-                'assets/images/turn_left.png',
+                'assets/assets_six/images/turn_left.png',
                 width: 25,
                 height: 25,
                 fit: BoxFit.contain,

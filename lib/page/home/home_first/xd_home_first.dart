@@ -275,7 +275,7 @@ class _XdHomeFirstState extends State<XdHomeFirst> {
               return DecoratedBox(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage('assets/images/home.png'),
+                    image: AssetImage('assets/assets_six/images/home.png'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -375,7 +375,7 @@ class _XdHomeFirstState extends State<XdHomeFirst> {
                                                       children: [
                                                         // DecoratedBox(
                                                         //   decoration: BoxDecoration(
-                                                        //     image: DecorationImage(image: AssetImage("assets/images/new_logo.webp"), fit: BoxFit.fill),
+                                                        //     image: DecorationImage(image: AssetImage("assets/assets_six/images/new_logo.webp"), fit: BoxFit.fill),
                                                         //   ),
                                                         //   child: SizedBox(
                                                         //     width: 50,
@@ -384,7 +384,7 @@ class _XdHomeFirstState extends State<XdHomeFirst> {
                                                         // ),
                                                         DecoratedBox(
                                                           decoration: BoxDecoration(
-                                                            image: DecorationImage(image: AssetImage("assets/images/set.png"), fit: BoxFit.fill),
+                                                            image: DecorationImage(image: AssetImage("assets/assets_six/images/set.png"), fit: BoxFit.fill),
                                                           ),
                                                           child: SizedBox(
                                                             width: 30,
@@ -464,7 +464,7 @@ class _XdHomeFirstState extends State<XdHomeFirst> {
                                                       children: [
                                                         DecoratedBox(
                                                           decoration: BoxDecoration(
-                                                            image: DecorationImage(image: AssetImage("assets/images/button2.png"), fit: BoxFit.fill),
+                                                            image: DecorationImage(image: AssetImage("assets/assets_six/images/button2.png"), fit: BoxFit.fill),
                                                             borderRadius: BorderRadius.all(Radius.circular(50)),
                                                             boxShadow: [BoxShadow(color: Color(0x99ffffff), blurRadius: 25, offset: Offset(0, 0))],
                                                           ),
@@ -514,7 +514,7 @@ class _XdHomeFirstState extends State<XdHomeFirst> {
                                                         children: [
                                                           DecoratedBox(
                                                             decoration: BoxDecoration(
-                                                              image: DecorationImage(image: AssetImage("assets/images/button4.png"), fit: BoxFit.cover),
+                                                              image: DecorationImage(image: AssetImage("assets/assets_six/images/button4.png"), fit: BoxFit.cover),
                                                               borderRadius: BorderRadius.all(Radius.circular(60)),
                                                               // boxShadow: [BoxShadow(color: Color(0xffeeb202), blurRadius: 33, offset: Offset(0, 0))],
                                                             ),
@@ -645,7 +645,7 @@ class _XdHomeFirstState extends State<XdHomeFirst> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Image.asset(
-                            'assets/images/paiming.png',
+                            'assets/assets_six/images/paiming.png',
                             width: 25,
                             height: 25,
                           ),
@@ -668,7 +668,7 @@ class _XdHomeFirstState extends State<XdHomeFirst> {
                             children: [
                               Center(
                                   child: Image.asset(
-                                    'assets/images/shoubin.png',
+                                    'assets/assets_six/images/shoubin.png',
                                     width: 30,
                                     height: 30,
                                   )),
@@ -722,7 +722,7 @@ class _XdHomeFirstState extends State<XdHomeFirst> {
                                     children: [
                                       DecoratedBox(
                                         decoration: BoxDecoration(
-                                          image: DecorationImage(image: AssetImage("assets/images/button1.png"), fit: BoxFit.cover),
+                                          image: DecorationImage(image: AssetImage("assets/assets_six/images/button1.png"), fit: BoxFit.cover),
                                           borderRadius: BorderRadius.all(Radius.circular(60)),
                                           // boxShadow: [BoxShadow(color: Color(0xffeeb202), blurRadius: 33, offset: Offset(0, 0))],
                                         ),
@@ -800,7 +800,7 @@ class _XdHomeFirstState extends State<XdHomeFirst> {
                                       mainAxisAlignment: MainAxisAlignment.center,
                                       children: [
                                         // Image.asset(
-                                        //   "assets/images/jifen.png",
+                                        //   "assets/assets_six/images/jifen.png",
                                         //   width: 14,
                                         //   height: 14,
                                         // ),
@@ -877,7 +877,7 @@ class _XdHomeFirstState extends State<XdHomeFirst> {
                                     child: Row(
                                       children: [
                                         // Image.asset(
-                                        //   "assets/images/jifen.png",
+                                        //   "assets/assets_six/images/jifen.png",
                                         //   width: 14,
                                         //   height: 14,
                                         // ),

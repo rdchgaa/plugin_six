@@ -27,7 +27,7 @@ class _PageUserAboutUsState extends State<PageUserAboutUs> {
     return DecoratedBox(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/login_back.webp'),
+          image: AssetImage('assets/assets_six/images/login_back.webp'),
           fit: BoxFit.fill,
         ),
       ),
@@ -83,7 +83,7 @@ class _PageUserAboutUsState extends State<PageUserAboutUs> {
                         height: 100.0,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage('assets/images/app_icon.png'),
+                            image: AssetImage('assets/assets_six/images/app_icon.png'),
                             fit: BoxFit.fill,
                           ),
                           boxShadow: [

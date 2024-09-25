@@ -6,18 +6,18 @@ Widget getCardBuild(int type, int num,{required Function() onDoubleTap,double wi
 
   //花色校正
   Color textColor = Color(0xff000000);
-  var image = 'assets/images/huase1.png';
+  var image = 'assets/assets_six/images/huase1.png';
   if (type == 1) {
-    image = 'assets/images/huase4.png'; //黑桃
+    image = 'assets/assets_six/images/huase4.png'; //黑桃
     textColor = Color(0xff000000);
   } else if (type == 2) {
-    image = 'assets/images/huase1.png'; //红桃
+    image = 'assets/assets_six/images/huase1.png'; //红桃
     textColor = Color(0xB4FA0000);
   } else if (type == 3) {
-    image = 'assets/images/huase2.png'; //梅花
+    image = 'assets/assets_six/images/huase2.png'; //梅花
     textColor = Color(0xff000000);
   } else if (type == 4) {
-    image = 'assets/images/huase3.png'; //方块
+    image = 'assets/assets_six/images/huase3.png'; //方块
     textColor = Color(0xB4FA0000);
   }
 
@@ -52,14 +52,14 @@ Widget getCardBuild(int type, int num,{required Function() onDoubleTap,double wi
   }
 
 
-  var jqkImage = 'assets/images/huase1.png';
+  var jqkImage = 'assets/assets_six/images/huase1.png';
   if (num > 10) {
     if (num == 11) {
-      jqkImage = 'assets/images/j.png';
+      jqkImage = 'assets/assets_six/images/j.png';
     } else if (num == 12) {
-      jqkImage = 'assets/images/q.png';
+      jqkImage = 'assets/assets_six/images/q.png';
     } else if (num == 13) {
-      jqkImage = 'assets/images/k.png';
+      jqkImage = 'assets/assets_six/images/k.png';
     }
 
     child = DecoratedBox(
@@ -194,14 +194,14 @@ Widget getCardBackBuild({required Function() onTap,required Function() onDoubleT
       decoration: BoxDecoration(
         // color: Color.fromRGBO(246, 246, 246, 1),
         borderRadius: BorderRadius.all(Radius.circular(width/9)),
-        image: DecorationImage(image: AssetImage("assets/images/cardback.png"), fit: BoxFit.fill),
+        image: DecorationImage(image: AssetImage("assets/assets_six/images/cardback.png"), fit: BoxFit.fill),
 
       ),
       child: SizedBox(
         width: width,
         height: height,
         child: Center(
-          // child: Image.asset('assets/images/youniu.png',width: width * 0.6,height: width * 0.6,color: Colors.red.withOpacity(0.9),),
+          // child: Image.asset('assets/assets_six/images/youniu.png',width: width * 0.6,height: width * 0.6,color: Colors.red.withOpacity(0.9),),
         ),
       ),
     ),
