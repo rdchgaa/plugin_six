@@ -71,8 +71,8 @@ class NetFile extends NetwordInterface {
         super([]) {
     _dio.options.baseUrl = '$scheme://$host';
 
-    _dio.options.connectTimeout = 30000; //5s
-    _dio.options.receiveTimeout = 30000;
+    _dio.options.connectTimeout = Duration(milliseconds: 30000); //5s
+    _dio.options.receiveTimeout = Duration(milliseconds: 30000); //5s;
 
     _dio.interceptors.add(CookieManager(_cookie));
     _dio.interceptors.add(InterceptorsWrapper(
