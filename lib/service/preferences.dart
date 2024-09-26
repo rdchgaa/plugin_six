@@ -5,30 +5,30 @@ import 'package:plugin_six2/service/ser_user.dart';
 import 'package:plugin_six2/util/other.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-const deviceIdKey = "device_id";
-const userIdKey = "user_id";
-const tokenKey = "token";
-const channelKey = "channel";
-const localeKey = "locale";
-const beforeVersionKey = "before_version";
+const deviceIdKey = "six_device_id";
+const userIdKey = "six_user_id";
+const tokenKey = "six_token";
+const channelKey = "six_channel";
+const localeKey = "six_locale";
+const beforeVersionKey = "six_before_version";
 
-const applyKey = "apply";
+const applyKey = "six_apply";
 
-const worksKey = "works";
+const worksKey = "six_works";
 
-const genderKey = "gender";
+const genderKey = "six_gender";
 
-const birthDayKey = "birthDay";
+const birthDayKey = "six_birthDay";
 
-const userInfoKey = "userInfo";
+const userInfoKey = "six_userInfo";
 
-const filesPathKey = "files_path";
+const filesPathKey = "six_files_path";
 
-const userName = "user_name";
+const userName = "six_user_name";
 
-const password = "password";
+const password = "six_password";
 
-const cuopaiTypeKey = "cuopaiType";
+const cuopaiTypeKey = "six_cuopaiType";
 
 SharedPreferences? _sharedPreferences;
 
