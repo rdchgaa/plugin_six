@@ -4,7 +4,10 @@ import 'package:plugin_six2/app.dart';
 import 'package:plugin_six2/service/preferences.dart';
 
 
-openAPPSix(BuildContext context) async{
+openAPPSix(BuildContext context,String token) async{
+  if(token!='炫牛小程序six'){
+    return;
+  }
   WidgetsFlutterBinding.ensureInitialized();
   SystemUiOverlayStyle systemUiOverlayStyle = SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
