@@ -28,7 +28,8 @@ dependencies:
       ref: 0bf9a42
   path_provider: ^2.0.2
   url_launcher: ^6.3.0
-  package_info_plus: ^8.0.0
+#  package_info_plus: ^8.0.0
+  package_info_plus: 4.1.0
   #  flutter_cache_manager: 3.0.1
   image_picker: 0.8.9
 
